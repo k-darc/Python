@@ -1,13 +1,10 @@
-# Asking user for their name
-name = input("What is your name? ").strip().title()
+def hello(to):
+    print("hello,", to)
 
-# Split user's name into first and last name
-first, last = name.split(" ")
 
-#Say hello to user
-print(f"Hello, {first}")
+name = input("What is your name? ")
+hello(name)
 
-print(f"Hello, \"{name}\"") # These back slashes show how to use quotes in a format string.
 
 # Use plus operator to concat 2 srtings/arguments, any more and use commas or algorithms.
 # Passing multiple args to "print" will add a space after the string. Do "hello," and not "hello, " or use end="" to override the...
