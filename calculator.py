@@ -1,6 +1,6 @@
 x = input("What is x? ")
-y = input("What is y?")
+y = input("What is y? ")
 
-z = x + y
+z = int(x) + int(y)
 
 print(z)
