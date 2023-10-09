@@ -1,8 +1,11 @@
 # Asking user for their name
 name = input("What is your name? ").strip().title()
 
+# Split user's name into first and last name
+first, last = name.split(" ")
+
 #Say hello to user
-print(f"Hello, {name}")
+print(f"Hello, {first}")
 
 print(f"Hello, \"{name}\"") # These back slashes show how to use quotes in a format string.
 
