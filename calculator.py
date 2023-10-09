@@ -1,7 +1,7 @@
 x = float(input("What is x? "))
 y = float(input("What is y? "))
 
-# Round rounds up
-z = round(x + y)
+z = round(x / y, 2)
 
-print(f"{z:,}") # Colon-Comma in a format string tells the reader to add a thousands separater
+print(z)
+# Colon-Comma "print({x:,})" in a format string tells the reader to add a separater. Floats can represent numbers accurately forever, they have to round as there is not enough memory in a PC
