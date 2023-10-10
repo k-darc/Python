@@ -11,3 +11,9 @@ main()
 #   forever, they have to round as there is not enough memory in a PC.
 # "print({"z:.2f"})" specify an f strings, how many digits you want to print.
 
+# > Greater than
+# >= Greater or equal to
+# < Less than
+# <+ Less than or equal to
+# == equality comapring left and right, not assignment
+# != does NOT equal
