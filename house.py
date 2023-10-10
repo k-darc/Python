@@ -1,7 +1,6 @@
 name = input("What's your name? ")
 
-if name == "Harry" or name == "Heromine" or name == "Ron"
-    print("Gryffindor")
+if name == "Harry" or name == "Hermione" or name == "Ron":
     print("Gryffindor")
 elif name == "Draco":
     print("Slytherine")
