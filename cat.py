@@ -1,3 +1,7 @@
-print(f"meow\n" * 3, end="") # print alread puts the cursor in a new line, \n adds the next meow on a new line and end="" delete the blank new line that print outputs.
-
-# using loops... and this was a good way to learn about Ctrl + C to cancel the runtime
+while True:
+    n = int(input("What is N? "))
+    if n > 0:
+        break
+    
+for _ in range(n): # underscores are used for variables that you immediately call, no need to name them.
+    print("meow")
