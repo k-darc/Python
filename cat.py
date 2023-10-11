@@ -1,6 +1,4 @@
-i = 0
-while i < 3:
-    print("Meow")
-    i += 1
+for i in [0, 1, 2]:
+    print("meow")
 
-# using a while loop... and this was a good way to learn about Ctrl + C to cancel the runtime
+# using loops... and this was a good way to learn about Ctrl + C to cancel the runtime
