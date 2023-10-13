@@ -10,4 +10,3 @@ def print_row(width):
 
 main()
 
-4:07:10
