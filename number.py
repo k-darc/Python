@@ -1,11 +1,17 @@
-while True:
-    try:
-        x = int(input("What's x? "))
-        break
-    except ValueError:
-        print("X is not an integer")
+def main():
+    x = get_int()
+    print(f"X is {x}")
 
-print(f"X is {x}")
+def get_int():
+    while True:
+        try:
+            x = int(input("What's x? "))
+        except ValueError:
+            print("X is not an integer")
+        else:
+             break
+    return x
 
-# Order of Operations error - the input is passing the string to the int function as its argument, the int function is the error.
+main()
+
 # If you TRY this code, and there is a ValueError, it'll now show the "not an integer"
