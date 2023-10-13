@@ -11,5 +11,3 @@ def get_int(prompt):
             pass
 
 main()
-
-# If you TRY this code, and there is a ValueError, it'll now show the "not an integer"
