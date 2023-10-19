@@ -6,3 +6,4 @@ if len(sys.argv) == 2:
 
 # run "python say.py Kevin"
 # you can also use "cowsay.trex"
+
