@@ -1,8 +1,8 @@
-import cowsay
 import sys
 
-if len(sys.argv) == 2:
-    cowsay.cow("hello, " + sys.argv[1])
+from sayings import goodbye
 
-# run "python say.py Kevin"
-# you can also use "cowsay.trex"
+if len(sys.argv) == 2:
+    goodbye(sys.argv[1])
+
+# Run python say.py name e.g. python say.py world
