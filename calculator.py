@@ -1,19 +1,9 @@
 def main():
-    x = int(input("What is x? "))
-    print("x squared is", square(x))
+    x = int(input("What's x? "))
+    print("X squared is", square(x))
 
 def square(n):
-    return pow(n, 2) # n is the number and 2 is the exponent
+    return n + n
 
-main()
-
-# Colon-Comma "print({z:,})" in a format string tells the reader to add a separater. Floats can represent numbers accurately...
-#   forever, they have to round as there is not enough memory in a PC.
-# "print({"z:.2f"})" specify an f strings, how many digits you want to print.
-
-# > Greater than
-# >= Greater or equal to
-# < Less than
-# <+ Less than or equal to
-# == equality comapring left and right, not assignment
-# != does NOT equal
+if __name__ == "__main__":
+    main()
