@@ -4,7 +4,7 @@ with open("names.txt") as file:
     for line in file:
         names.append(line.rstrip())
 
-for name in sorted(names):
+for name in sorted(names, reverse=True):
     print(f"hello, {name}")
 
 # each name entered on run will exist in names.txt. "Code names.txt" to see what you have added "rm names.txt" to delete the file.
