@@ -1,4 +1,4 @@
-import re
+import re # Regular expression import (RegEx)
 
 email = input("What your email? ").strip()
 
