@@ -17,12 +17,12 @@ class Student:
         self._name = name
 
 
-# Getter
+#  Getter
     @property
     def house(self):
         return self._house
 
-# Setter
+#  Setter
     @house.setter
     def house(self, house):
         if house not in ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
