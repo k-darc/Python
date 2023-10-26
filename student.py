@@ -10,6 +10,16 @@ class Student:
     def __str__(self):
         return f"{self.name} from {self.house}"
 
+# Getter
+    def house(self):
+        return self.house
+
+# Setter
+    def house(self, house):
+        if house not in ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
+            raise ValueError("InvalidError")
+        self.house = house
+
 def main():
     student = get_student()
     student.house = "Number Four, Privet Drive"
