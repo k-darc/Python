@@ -11,3 +11,5 @@ gryffindors = [
 
 for gryffindor in sorted(gryffindors):
     print(gryffindor)
+
+    #sorts based on house
